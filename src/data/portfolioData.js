@@ -14,7 +14,7 @@ export const personalInfo = {
   github: "https://github.com/RBelex-007",
   linkedin: "https://www.linkedin.com/in/belema-roberts",
   resumeUrl: "https://docs.google.com/document/d/1d_RmdF3wJvYxS3OwlDVq66N1qiLetUvL1O5k7TiJkJY/edit?usp=sharing",
-  avatar: "/Belema_pic.jpg",
+  avatar: `${import.meta.env.BASE_URL}Belema_pic.jpg`,
   bio: "I'm a Computer Science student at Tufts University obsessed with engineering performant systems at the intersection of low-level software, scalable backends, and clinical AI. From engineering real-time surgical vision systems at Tufts iBIT Lab and C++ event-streaming pipelines with Kafka and QuestDB, to mentoring Nigerian robotics teams to a National Championship, I build software that solves hard technical problems with measurable real-world impact."
 };
 
